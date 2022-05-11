@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NubankClone.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,8 @@ namespace NubankClone
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new InitialPage();
         }
 
         protected override void OnStart()
