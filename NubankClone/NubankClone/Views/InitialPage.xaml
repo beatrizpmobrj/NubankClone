@@ -26,7 +26,7 @@
             <Label Text="Essa senha é a mesma forma de validação que você usa para desbloquear seu celular." FontFamily="PaginaInicialMenor"
                    TextColor="Black" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
                    VerticalOptions="Center" Margin="20,30,50,-10"/>
-            <Switch Grid.Column="1" Grid.Row="5" Margin="10,-25"/>
+                <Switch Grid.Column="1" Grid.Row="5" Margin="10,-25" OnColor="#8a2be2" ThumbColor="White"/>
             </StackLayout>
 
 
