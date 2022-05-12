@@ -12,7 +12,9 @@ namespace NubankClone
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new InitialPage();
+            //MainPage = new InitialPage();
+            MainPage = new NavigationPage(new PhysicalCard());
+            
         }
 
         protected override void OnStart()
